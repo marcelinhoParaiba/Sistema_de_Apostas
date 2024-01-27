@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(85, 53, 53);
+    
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+body{
+    background-color: #c90000;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+#logo{
+    height: 227px;
+}
+#main-login{
+    max-width: 500px;
+    width: 100%;
+    background-color: #2d9c49;
+    display: flex;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    box-shadow: 8px 8px 6px 3px black;
+}
+#main-cadastro{
+    max-width: 500px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+}
